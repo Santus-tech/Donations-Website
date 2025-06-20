@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support Santus Designs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Fuel Creativity, Support Santus Designs</h1>
+    <p>Empowering bold, Kenyan-inspired design through your support.</p>
+  </header>
+
+  <section class="section">
+    <h2>Why Donate?</h2>
+    <p>Every satoshi keeps the creativity flowing.
+     Whether you're a fan of culturally rich design, web tools that solve real problems,
+      or blending local legacy with futuristic style—your support matters.</p>
+      <p>Join us in building a vibrant, creative community that celebrates East African culture and innovation.
+        Your contribution will be reinvested into projects that uplift local creatives and enhance our digital landscape.</p>
+      </p>
+
+    <div class="qr-code">
+      <h3>Scan to Donate Bitcoin</h3>
+      <img src="qrcode.png" alt="Bitcoin QR Code">
+      <p><strong>Wallet:</strong> 1EYWcaJKw8xZXA31HTs6xXBEfbemZU86CQ</p>
+    </div>
+
+    <div class="donate-box">
+      <h3>Copy Wallet Address</h3>
+      <input type="text" value="1EYWcaJKw8xZXA31HTs6xXBEfbemZU86CQ" id="btcAddress" readonly>
+      <button onclick="copyAddress()">Copy Address</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Recent Projects</h2>
+    <p>🚀 WordPress-powered portals for housing, 🎨 branding with East African soul, and 💡 tools for local creatives. You're fueling the next wave.</p>
+  </section>
+
+  <div class="footer">
+    Created with ❤️ by Chrisantus | Santus Designs
+  </div>
+
+  <script>
+    function copyAddress() {
+      const addressField = document.getElementById("btcAddress");
+      addressField.select();
+      addressField.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      alert("Bitcoin address copied!");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #111; /* Deep black base */
+    color: #f8f5e4; /* Soft gold text */
+  }
+  
+  header {
+    background: linear-gradient(135deg, #b68900, #ffcc00); /* Gold gradient */
+    padding: 80px 20px;
+    text-align: center;
+    color: #111;
+  }
+  
+  header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #111;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #222;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .qr-code {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .qr-code img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #ffcc00;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  .donate-box {
+    background: #1c1c1c;
+    border: 2px solid #ffcc00;
+    color: #f8f5e4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .donate-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    background: #2d2d2d;
+    border: 1px solid #ffcc00;
+    color: #f8f5e4;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #ffcc00;
+    border: none;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #e6b800;
+  }
+  
+  .footer {
+    background: #000;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  
